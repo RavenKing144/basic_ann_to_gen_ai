@@ -1,0 +1,26 @@
+# Core
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.6.4
+requests==2.31.0
+
+# STT & LLMs
+openai==1.23.6
+
+# LangChain & Retrieval
+langchain==0.1.14
+faiss-cpu==1.7.4
+tiktoken==0.6.0
+
+# NLP & Medical Entity Linking
+spacy==3.7.4
+scispacy==0.5.4
+umls-linker @ git+https://github.com/allenai/scispacy.git#egg=umls-linker
+
+# Frontend
+streamlit==1.33.0
+
+# Utilities
+python-dotenv==1.0.1
+
