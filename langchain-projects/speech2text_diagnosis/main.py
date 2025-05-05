@@ -38,7 +38,7 @@ class QueryRequest(BaseModel):
     text: str
 
 
-openai_api_key = ""
+openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
 def process_query(user_query: str) -> str:
