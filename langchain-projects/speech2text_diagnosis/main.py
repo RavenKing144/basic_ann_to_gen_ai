@@ -21,9 +21,11 @@ import tempfile
 import ssl
 import urllib.request
 
+from dotenv import load_dotenv
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
-
+load_dotenv()
 app = FastAPI(title="AI Healthcare Assistant")
 
 app.add_middleware(
