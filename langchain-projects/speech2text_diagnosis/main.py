@@ -38,7 +38,7 @@ class QueryRequest(BaseModel):
     text: str
 
 
-openai_api_key = "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"
+openai_api_key = ""
 client = OpenAI(api_key=openai_api_key)
 
 def process_query(user_query: str) -> str:
