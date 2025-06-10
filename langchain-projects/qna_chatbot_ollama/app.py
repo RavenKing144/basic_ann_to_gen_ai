@@ -22,7 +22,7 @@ prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "You are a helpful assistant that helps people resolve queries. Please response to the user queries. Please do not answer anything else. Only answer the user"
+            "You are a helpful assistant that helps people resolve queries. Please respond to the user queries. Please do not answer anything else. Only answer the user"
         ),
         (
             "user",

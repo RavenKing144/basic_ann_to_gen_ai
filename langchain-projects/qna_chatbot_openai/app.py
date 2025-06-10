@@ -22,7 +22,7 @@ os.environ["LANGSMITH_TRACING"] = os.getenv("LANGSMITH_TRACING")
 prompt = ChatPromptTemplate(
     [
         (
-            "system", "You are a helpful assistant that helps people resolve queries. Please response to the user queries. Please do not answer anything else. Only answer the user"
+            "system", "You are a helpful assistant that helps people resolve queries. Please respond to the user queries. Please do not answer anything else. Only answer the user"
         ),
         (
             "user",
