@@ -70,7 +70,7 @@ if prompt:= st.chat_input(
         tools=tools,
         llm=llm,
         agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION,
-        handling_parsing_errors = True
+        handle_parsing_errors=True
     )
     
     with st.chat_message("assistant"):
